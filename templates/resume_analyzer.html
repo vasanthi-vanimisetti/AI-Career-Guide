@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-heading page-width">
+  <p class="eyebrow">RESUME ANALYZER</p><h1>Make your experience easier to see.</h1>
+  <p>Get a practical role-fit review and clear ideas to improve your next application.</p>
+</section>
+<section class="work-area page-width resume-work-area">
+  <form class="form-panel" id="resume-form" novalidate>
+    <div class="form-title"><span class="step-mark">01</span><div><h2>Review your resume</h2><p>PDF or DOCX, up to 5 MB.</p></div></div>
+    <label for="resume-role">Target role</label><input id="resume-role" name="role" type="text" placeholder="e.g. Frontend developer" maxlength="120" required>
+    <label for="resume-file">Resume file</label>
+    <label class="drop-zone" id="drop-zone" for="resume-file" tabindex="0">
+      <input id="resume-file" name="resume" type="file" accept=".pdf,.docx,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document" required>
+      <span class="upload-symbol" aria-hidden="true">&#8593;</span><strong id="file-label">Choose a file or drop it here</strong><span class="upload-hint">PDF or DOCX · Maximum 5 MB</span>
+    </label>
+    <button class="button button-primary form-submit" type="submit"><span>Analyze my resume</span><span aria-hidden="true">&#8594;</span></button>
+    <p class="form-error" id="resume-error" role="alert" aria-live="polite"></p>
+    <p class="privacy-note"><span aria-hidden="true">&#9679;</span> Your uploaded file is deleted after analysis.</p>
+  </form>
+  <aside class="side-note resume-side-note"><span class="side-note-mark" aria-hidden="true">&#10003;</span><p class="eyebrow">A CLEARER PICTURE</p><p>Your score combines consistent checks with role-specific skill signals. It’s a guide, not a hiring decision.</p><div class="note-rule"></div><p class="small-note">Your resume text is processed for this request and is not saved.</p></aside>
+</section>
+<section class="results-section page-width" id="resume-result" hidden aria-live="polite">
+  <div class="result-header"><div><p class="eyebrow">YOUR RESUME REVIEW</p><h2>Here’s where you stand.</h2></div><span class="offline-badge" id="resume-offline" hidden>Generated offline</span></div>
+  <div id="resume-message" class="notice" hidden role="status"><span></span><button class="button button-small" id="retry-resume" type="button">Retry</button></div>
+  <div id="resume-report"></div>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/resume.js') }}" defer></script>{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-heading page-width">
+  <p class="eyebrow">YOUR SAVED ACTIVITY</p><h1>A record of the steps you’ve taken.</h1>
+  <p>Plans and resume reviews made on this device.</p>
+</section>
+<section class="history-section page-width" id="history-content" aria-live="polite">
+  <div class="history-column"><div class="history-heading"><span class="step-mark">01</span><h2>Career plans</h2></div><div id="plan-history" class="history-list"></div></div>
+  <div class="history-column"><div class="history-heading"><span class="step-mark">02</span><h2>Resume reviews</h2></div><div id="analysis-history" class="history-list"></div></div>
+</section>
+<p class="page-width form-error" id="history-error" role="alert"></p>
+{% endblock %}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FAF6F1">
+  <title>{{ title }} | AI Career Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ url_for('home') }}" aria-label="AI Career Guide home">
+      <span class="brand-mark" aria-hidden="true">A</span><span>Pathfinder<span class="brand-dot">.</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
+      <a href="{{ url_for('home') }}" {% if request.endpoint == 'home' %}aria-current="page"{% endif %}>Home</a>
+      <a href="{{ url_for('career_page') }}" {% if request.endpoint == 'career_page' %}aria-current="page"{% endif %}>Career Guide</a>
+      <a href="{{ url_for('resume_page') }}" {% if request.endpoint == 'resume_page' %}aria-current="page"{% endif %}>Resume Analyzer</a>
+      <a href="{{ url_for('history_page') }}" {% if request.endpoint == 'history_page' %}aria-current="page"{% endif %}>History</a>
+    </nav>
+  </header>
+  <main id="main-content">{% block content %}{% endblock %}</main>
+  <footer class="site-footer"><span>Pathfinder</span><span>Small steps. A clearer direction.</span></footer>
+  <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

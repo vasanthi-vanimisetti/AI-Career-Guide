@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="home-hero page-width">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT CHAPTER, MADE CLEAR</p>
+    <h1>A thoughtful guide<br>for your <em>next move.</em></h1>
+    <p class="hero-intro">Turn your goals into a plan, and your experience into a resume that speaks clearly.</p>
+    <a class="text-link" href="{{ url_for('career_page') }}">Find your starting point <span aria-hidden="true">&#8594;</span></a>
+  </div>
+  <div class="hero-art" aria-label="Career planning illustration" role="img">
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="path-note note-one"><span class="note-icon">01</span><span>Learn with intention</span></div>
+    <div class="path-note note-two"><span class="note-icon">02</span><span>Show what you can do</span></div>
+    <div class="path-note note-three"><span class="note-icon">03</span><span>Take the next step</span></div>
+    <div class="hero-seal"><span>YOUR</span><strong>PATH</strong><span>STARTS HERE</span></div>
+  </div>
+</section>
+<section class="tool-section page-width" aria-labelledby="tools-heading">
+  <div class="section-heading"><div><p class="eyebrow">TOOLS FOR YOUR CAREER</p><h2 id="tools-heading">Move from unsure to underway.</h2></div><span class="section-count">01 — 02</span></div>
+  <div class="tool-grid">
+    <a class="tool-card career-card" href="{{ url_for('career_page') }}">
+      <span class="tool-number">01 / PLAN</span><span class="tool-icon" aria-hidden="true">&#10022;</span>
+      <h3>Build a learning plan</h3><p>Get a practical 30-day path shaped around your target role, current skills, and daily time.</p>
+      <span class="card-cta">Create my plan <span aria-hidden="true">&#8599;</span></span>
+    </a>
+    <a class="tool-card resume-card" href="{{ url_for('resume_page') }}">
+      <span class="tool-number">02 / REVIEW</span><span class="tool-icon" aria-hidden="true">&#10003;</span>
+      <h3>Strengthen your resume</h3><p>See role fit, ATS signals, useful improvements, and places to find your next opportunity.</p>
+      <span class="card-cta">Review my resume <span aria-hidden="true">&#8599;</span></span>
+    </a>
+  </div>
+</section>
+{% endblock %}

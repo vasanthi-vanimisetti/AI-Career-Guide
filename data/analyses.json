@@ -1,0 +1,60 @@
+[
+  {
+    "id": "40708192-c765-4e0d-8eb8-f949cff76d4e",
+    "created_at": "2026-10-02T06:52:51+00:00",
+    "role": "AIML engineer",
+    "filename": "VAS_RES_2.docx",
+    "offline": true,
+    "result": {
+      "role": "AIML engineer",
+      "match_percentage": 60,
+      "verdict": "Moderate",
+      "match_reason": "Your resume includes 3 of 5 common AIML engineer skills.",
+      "ats_score": 82,
+      "breakdown": {
+        "keywords": 12,
+        "role_relevance": 6,
+        "formatting": 10,
+        "sections": 21,
+        "action_verbs": 8,
+        "quantified_achievements": 15,
+        "length": 10
+      },
+      "sections_present": {
+        "contact": true,
+        "summary": true,
+        "skills": true,
+        "experience": false,
+        "education": true,
+        "projects": true
+      },
+      "matched_skills": [
+        "communication",
+        "problem solving",
+        "teamwork"
+      ],
+      "missing_skills": [
+        "research",
+        "time management"
+      ],
+      "suggestions": {
+        "skills_to_add": [
+          "research",
+          "time management"
+        ],
+        "certifications": [
+          {
+            "name": "AIML engineer fundamentals",
+            "provider": "Coursera or an official provider"
+          }
+        ],
+        "projects": [
+          "Build a small, documented project that demonstrates research"
+        ],
+        "wording_fixes": [
+          "Add clearly labeled sections for: Experience."
+        ]
+      }
+    }
+  }
+]

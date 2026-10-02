@@ -1,0 +1,29 @@
+{
+  "roles": {
+    "software developer": ["Python", "JavaScript", "Git", "HTML", "CSS", "SQL", "APIs", "testing"],
+    "data analyst": ["SQL", "Excel", "Python", "statistics", "data visualization", "Power BI", "communication"],
+    "frontend developer": ["HTML", "CSS", "JavaScript", "accessibility", "responsive design", "Git", "testing"],
+    "ux designer": ["user research", "wireframing", "prototyping", "usability testing", "Figma", "accessibility"]
+  },
+  "skills": {
+    "Python": [{"label": "Official Python tutorial", "url": "https://docs.python.org/3/tutorial/"}, {"label": "freeCodeCamp", "url": "https://www.freecodecamp.org/learn/"}],
+    "JavaScript": [{"label": "MDN JavaScript guide", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"}, {"label": "freeCodeCamp", "url": "https://www.freecodecamp.org/learn/"}],
+    "HTML": [{"label": "MDN HTML", "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML"}],
+    "CSS": [{"label": "MDN CSS", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS"}],
+    "SQL": [{"label": "SQLBolt lessons", "url": "https://sqlbolt.com/"}, {"label": "W3Schools SQL", "url": "https://www.w3schools.com/sql/"}],
+    "Git": [{"label": "Git documentation", "url": "https://git-scm.com/doc"}, {"label": "GitHub Skills", "url": "https://skills.github.com/"}],
+    "Excel": [{"label": "Microsoft Excel help", "url": "https://support.microsoft.com/excel"}],
+    "statistics": [{"label": "Khan Academy statistics", "url": "https://www.khanacademy.org/math/statistics-probability"}],
+    "data visualization": [{"label": "Tableau training", "url": "https://www.tableau.com/learn/training"}],
+    "Power BI": [{"label": "Microsoft Learn Power BI", "url": "https://learn.microsoft.com/training/powerplatform/power-bi/"}],
+    "accessibility": [{"label": "MDN accessibility", "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"}],
+    "responsive design": [{"label": "web.dev responsive design", "url": "https://web.dev/learn/design/"}],
+    "testing": [{"label": "MDN web testing", "url": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing"}],
+    "Figma": [{"label": "Figma Learn", "url": "https://help.figma.com/hc/en-us/categories/360002051613-Learn-design"}],
+    "user research": [{"label": "Nielsen Norman Group articles", "url": "https://www.nngroup.com/articles/"}],
+    "wireframing": [{"label": "Figma Learn", "url": "https://help.figma.com/hc/en-us/categories/360002051613-Learn-design"}],
+    "communication": [{"label": "Coursera free courses", "url": "https://www.coursera.org/courses?query=free"}],
+    "problem solving": [{"label": "YouTube lessons", "url": "https://www.youtube.com/results?search_query=problem+solving+skills"}]
+  },
+  "general": {"skills": ["communication", "problem solving", "teamwork", "research", "time management"]}
+}

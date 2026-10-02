@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-heading page-width">
+  <p class="eyebrow">YOUR CAREER GUIDE</p><h1>Make the next 30 days count.</h1>
+  <p>Tell us where you want to go. We’ll help you choose a steady, realistic way forward.</p>
+</section>
+<section class="work-area page-width">
+  <form class="form-panel" id="career-form" novalidate>
+    <div class="form-title"><span class="step-mark">01</span><div><h2>Your starting point</h2><p>All fields except current skills are required.</p></div></div>
+    <label for="career-name">Your name</label><input id="career-name" name="name" type="text" autocomplete="name" placeholder="e.g. Maya" maxlength="100" required>
+    <label for="career-role">Target role</label><input id="career-role" name="role" type="text" placeholder="e.g. Data analyst" maxlength="120" required>
+    <label for="career-skills">Current skills <span class="label-optional">Optional</span></label><input id="career-skills" name="skills" type="text" placeholder="e.g. Excel, communication, Python">
+    <label for="career-hours">Available time per day</label>
+    <select id="career-hours" name="hours" required><option value="1">1 hour</option><option value="2">2 hours</option><option value="3">3 hours</option><option value="4+">4+ hours</option></select>
+    <button class="button button-primary form-submit" type="submit"><span>Build my 30-day plan</span><span aria-hidden="true">&#8594;</span></button>
+    <p class="form-error" id="career-error" role="alert" aria-live="polite"></p>
+  </form>
+  <aside class="side-note"><span class="side-note-mark" aria-hidden="true">&#10022;</span><p class="eyebrow">A GOOD PLAN FITS YOUR LIFE</p><p>Your roadmap is paced around the time you actually have. You can adjust the pace as you go.</p><div class="note-rule"></div><p class="small-note">Your completed days are saved in this browser.</p></aside>
+</section>
+<section class="results-section page-width" id="career-result" hidden aria-live="polite">
+  <div class="result-header"><div><p class="eyebrow">YOUR PERSONAL ROADMAP</p><h2 id="plan-heading">Your 30-day plan</h2></div><div class="result-actions"><span class="offline-badge" id="plan-offline" hidden>Generated offline</span><button class="button button-outline print-button" id="print-plan" type="button"><span aria-hidden="true">&#9113;</span> Print / Save PDF</button></div></div>
+  <div id="plan-message" class="notice" hidden role="status"><span></span><button class="button button-small" id="retry-plan" type="button">Retry</button></div>
+  <div class="progress-wrap"><div class="progress-label"><span>Learning progress</span><strong id="plan-progress-text">0 of 30 days</strong></div><div class="progress-track"><div class="progress-fill" id="plan-progress" role="progressbar" aria-label="Plan progress" aria-valuemin="0" aria-valuemax="30" aria-valuenow="0"></div></div></div>
+  <div class="gap-summary" id="skill-gaps" hidden></div>
+  <div class="week-list" id="week-list"></div>
+  <div class="checklist-panel" id="final-checklist"></div>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/career.js') }}" defer></script>{% endblock %}

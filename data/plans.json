@@ -1,0 +1,486 @@
+[
+  {
+    "id": "26c8eacd-673d-44b0-a976-be868e932b56",
+    "created_at": "2026-10-02T06:51:48+00:00",
+    "name": "Vasanthi Vanimisetti",
+    "role": "AIML engineer",
+    "skills": [
+      "Python"
+    ],
+    "hours_per_day": "2",
+    "offline": true,
+    "plan": {
+      "skill_gaps": [
+        "communication",
+        "problem solving",
+        "teamwork",
+        "research",
+        "time management"
+      ],
+      "weeks": [
+        {
+          "title": "Week 1: Foundations",
+          "theme": "Foundations",
+          "days": [
+            {
+              "day": 1,
+              "topic": "communication: learn the basics",
+              "practice": "Spend 2 hour(s) studying communication, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "Coursera free courses",
+                  "url": "https://www.coursera.org/courses?query=free"
+                }
+              ]
+            },
+            {
+              "day": 2,
+              "topic": "problem solving: guided practice",
+              "practice": "Spend 2 hour(s) studying problem solving, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=problem+solving+skills"
+                }
+              ]
+            },
+            {
+              "day": 3,
+              "topic": "teamwork: learn the basics",
+              "practice": "Spend 2 hour(s) studying teamwork, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=teamwork"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=teamwork+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 4,
+              "topic": "research: guided practice",
+              "practice": "Spend 2 hour(s) studying research, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=research"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=research+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 5,
+              "topic": "time management: learn the basics",
+              "practice": "Spend 2 hour(s) studying time management, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=time+management"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=time+management+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 6,
+              "topic": "communication: guided practice",
+              "practice": "Spend 2 hour(s) studying communication, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "Coursera free courses",
+                  "url": "https://www.coursera.org/courses?query=free"
+                }
+              ]
+            },
+            {
+              "day": 7,
+              "topic": "problem solving: learn the basics",
+              "practice": "Spend 2 hour(s) studying problem solving, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=problem+solving+skills"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Week 2: Core skills",
+          "theme": "Core skills",
+          "days": [
+            {
+              "day": 8,
+              "topic": "teamwork: guided practice",
+              "practice": "Spend 2 hour(s) studying teamwork, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=teamwork"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=teamwork+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 9,
+              "topic": "research: learn the basics",
+              "practice": "Spend 2 hour(s) studying research, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=research"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=research+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 10,
+              "topic": "time management: guided practice",
+              "practice": "Spend 2 hour(s) studying time management, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=time+management"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=time+management+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 11,
+              "topic": "communication: learn the basics",
+              "practice": "Spend 2 hour(s) studying communication, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "Coursera free courses",
+                  "url": "https://www.coursera.org/courses?query=free"
+                }
+              ]
+            },
+            {
+              "day": 12,
+              "topic": "problem solving: guided practice",
+              "practice": "Spend 2 hour(s) studying problem solving, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=problem+solving+skills"
+                }
+              ]
+            },
+            {
+              "day": 13,
+              "topic": "teamwork: learn the basics",
+              "practice": "Spend 2 hour(s) studying teamwork, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=teamwork"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=teamwork+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 14,
+              "topic": "research: guided practice",
+              "practice": "Spend 2 hour(s) studying research, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=research"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=research+tutorial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Week 3: Applied practice",
+          "theme": "Applied practice",
+          "days": [
+            {
+              "day": 15,
+              "topic": "time management: learn the basics",
+              "practice": "Spend 2 hour(s) studying time management, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=time+management"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=time+management+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 16,
+              "topic": "communication: guided practice",
+              "practice": "Spend 2 hour(s) studying communication, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "Coursera free courses",
+                  "url": "https://www.coursera.org/courses?query=free"
+                }
+              ]
+            },
+            {
+              "day": 17,
+              "topic": "problem solving: learn the basics",
+              "practice": "Spend 2 hour(s) studying problem solving, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=problem+solving+skills"
+                }
+              ]
+            },
+            {
+              "day": 18,
+              "topic": "teamwork: guided practice",
+              "practice": "Spend 2 hour(s) studying teamwork, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=teamwork"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=teamwork+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 19,
+              "topic": "research: learn the basics",
+              "practice": "Spend 2 hour(s) studying research, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=research"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=research+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 20,
+              "topic": "time management: guided practice",
+              "practice": "Spend 2 hour(s) studying time management, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=time+management"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=time+management+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 21,
+              "topic": "communication: learn the basics",
+              "practice": "Spend 2 hour(s) studying communication, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "Coursera free courses",
+                  "url": "https://www.coursera.org/courses?query=free"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Week 4: Portfolio and review",
+          "theme": "Portfolio and review",
+          "days": [
+            {
+              "day": 22,
+              "topic": "problem solving: guided practice",
+              "practice": "Spend 2 hour(s) studying problem solving, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=problem+solving+skills"
+                }
+              ]
+            },
+            {
+              "day": 23,
+              "topic": "teamwork: learn the basics",
+              "practice": "Spend 2 hour(s) studying teamwork, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=teamwork"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=teamwork+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 24,
+              "topic": "research: guided practice",
+              "practice": "Spend 2 hour(s) studying research, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=research"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=research+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 25,
+              "topic": "time management: learn the basics",
+              "practice": "Spend 2 hour(s) studying time management, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=time+management"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=time+management+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 26,
+              "topic": "communication: guided practice",
+              "practice": "Spend 2 hour(s) studying communication, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "Coursera free courses",
+                  "url": "https://www.coursera.org/courses?query=free"
+                }
+              ]
+            },
+            {
+              "day": 27,
+              "topic": "problem solving: learn the basics",
+              "practice": "Spend 2 hour(s) studying problem solving, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=problem+solving+skills"
+                }
+              ]
+            },
+            {
+              "day": 28,
+              "topic": "Mini project: build a small AIML engineer portfolio project",
+              "practice": "Start a portfolio project that demonstrates communication, problem solving, teamwork.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=teamwork"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=teamwork+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 29,
+              "topic": "research: learn the basics",
+              "practice": "Spend 2 hour(s) studying research, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=research"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=research+tutorial"
+                }
+              ]
+            },
+            {
+              "day": 30,
+              "topic": "time management: guided practice",
+              "practice": "Spend 2 hour(s) studying time management, then note how it applies to AIML engineer.",
+              "estimated_hours": 2,
+              "resources": [
+                {
+                  "label": "YouTube lessons",
+                  "url": "https://www.youtube.com/results?search_query=time+management"
+                },
+                {
+                  "label": "Search tutorials",
+                  "url": "https://www.google.com/search?q=time+management+tutorial"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "final_checklist": [
+        "Review your progress in AIML engineer skills",
+        "Finish and document your mini project",
+        "Update your resume and portfolio",
+        "Choose the next skill to deepen"
+      ]
+    }
+  }
+]

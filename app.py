@@ -20,7 +20,7 @@ from services.storage import read_json, save_record
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
-UPLOAD_DIR = ROOT / "uploads"
+UPLOAD_DIR = Path("/tmp/uploads")
 ALLOWED_EXTENSIONS = {"pdf", "docx"}
 MAX_UPLOAD_BYTES = 5 * 1024 * 1024
 
